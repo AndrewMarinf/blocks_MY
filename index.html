@@ -3,14 +3,14 @@
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Document</title>
+		<title>Blocks</title>
 		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css" />
 		<link rel="stylesheet" href="./css/font.css" />
 		<link rel="stylesheet" href="./css/style.css" />
 	</head>
 	<body>
-		<section class="conditions-and-bonuses">
-			<div class="conditions">
+		<section class="conditions">
+			<div class="conditions__container">
 				<h2 class="conditions__title">Умови отриманння доходу</h2>
 				<p class="conditions__text">
 					Основний план Amway – модель, яка з 1959 року допомагає людям у різних країнах отримувати
@@ -19,36 +19,37 @@
 				<button class="conditions__button">Для НПА</button>
 				<button class="conditions__button">Для ПУ</button>
 			</div>
-			<div class="bonuses bonuses_grid_continer">
-				<div class="bonuses__item bonuses-item">
-					<img class="bonuses-item__img" src="./img/income.png" alt="income dollars" />
-					<h3 class="bonuses-item__subtitle">Система компенсацій Amway</h3>
+			<div class="conditions__bonuses">
+				<div class="conditions__item">
+					<img class="conditions__item-img" src="./img/income.png" alt="income dollars" />
+					<h3 class="conditions__item-subtitle">Система компенсацій Amway</h3>
 					<img
-						class="bonuses-item__img horizontal-vector"
+						class="conditions__img-horizontal-vector"
 						src="./img/horizontal_vector.svg"
 						alt="horizontal vector" />
-					<p class="bonuses-item__text">Додаткові бонуси та мотиваційні подорожі!</p>
+					<p class="conditions__item-text">Додаткові бонуси та мотиваційні подорожі!</p>
 				</div>
-				<div class="bonuses__item bonuses-item">
-					<img class="bonuses-item__img" src="./img/business.png" alt="business" />
-					<h3 class="bonuses-item__subtitle">Програми підтримки продажів</h3>
+
+				<div class="conditions__item">
+					<img class="conditions__item-img" src="./img/business.png" alt="business" />
+					<h3 class="conditions__item-subtitle">Програма дискреційних заохочень Бізнес Плюс⁺</h3>
 					<img
-						class="bonuses-item__img horizontal-vector"
+						class="conditions__img-horizontal-vector"
 						src="./img/horizontal_vector.svg"
 						alt="horizontal vector" />
-					<p class="bonuses-item__text">Прибутковий бізнес з перших кроків!</p>
-				</div>
-				<div class="bonuses__item bonuses-item">
-					<img class="bonuses-item__img" src="./img/discount.png" alt="discount" />
-					<h3 class="bonuses-item__subtitle">Програма дискреційних заохочень Бізнес Плюс⁺</h3>
-					<img
-						class="bonuses-item__img horizontal-vector"
-						src="./img/horizontal_vector.svg"
-						alt="horizontal vector" />
-					<p class="bonuses-item__text">
+					<p class="conditions__item-text">
 						Додаткові винагороди: виконуйте умови програми, розвивайте стабільний бізнес та
 						відкривайте нові переваги співпраці з Amway!
 					</p>
+				</div>
+				<div class="conditions__item">
+					<img class="conditions__item-img" src="./img/discount.png" alt="discount" />
+					<h3 class="conditions__item-subtitle">Програми підтримки продажів</h3>
+					<img
+						class="conditions__img-horizontal-vector"
+						src="./img/horizontal_vector.svg"
+						alt="horizontal vector" />
+					<p class="conditions__item-text">Прибутковий бізнес з перших кроків!</p>
 				</div>
 			</div>
 		</section>
